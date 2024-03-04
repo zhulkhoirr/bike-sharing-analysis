@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-day_df = pd.read_csv("days.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/zhulkhoirr/bike-sharing-analysis/master/dashboard/day.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/zhulkhoirr/bike-sharing-analysis/master/dashboard/hour.csv")
 
 with st.sidebar:
     st.write("Nama: Zhulkhoir Rifat Rianda Raja Faqih")
