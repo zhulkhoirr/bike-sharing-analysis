@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-day_df = pd.read_csv("day.csv")
+day_df = pd.read_csv("days.csv")
 hour_df = pd.read_csv("hour.csv")
 
 with st.sidebar:
